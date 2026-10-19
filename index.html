@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhúng CSS vào trang HTML</title>
+
+    <!-- Phần 3: External style (Liên kết file CSS bên ngoài) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Phần 2: Internal style (Thẻ <style> trong thẻ <head>) -->
+    <style>
+        h1 {
+            color: blue;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Phần 2: Sử dụng Internal-style (đã khai báo màu xanh lam cho h1 ở trên) -->
+    <h1>Đây là tiêu đề bài viết (Internal Style)</h1>
+
+    <!-- Phần 3: Sử dụng External-style (đã khai báo màu xanh lá cho p trong file style.css) -->
+    <p>Đây là đoạn văn bản sử dụng kiểu nhúng External Style từ file style.css.</p>
+
+    <!-- Phần 1: Inline-style (Viết trực tiếp thuộc tính style vào thẻ HTML) -->
+    <p style="color: red; font-weight: bold;">
+        Đoạn văn này được thay đổi màu sắc bằng Inline Style (màu đỏ).
+    </p>
+
+</body>
+</html>
